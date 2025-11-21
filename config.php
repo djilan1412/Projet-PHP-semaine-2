@@ -11,3 +11,4 @@ try {
 $query = $dbh->prepare("SELECT * FROM listings");
 $query->execute();
 $data = $query->fetchAll();
+?>
