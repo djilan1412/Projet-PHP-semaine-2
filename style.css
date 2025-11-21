@@ -1,83 +1,71 @@
 body {
-            font-family: Arial;
-            margin: 0;
-            background-color: lightgray;
-        }
-        
-        .entete {
-            background-color: #ff5a5f;
-            color: white;
-            padding: 20px;
-        }
-        
-        .entete h1 {
-            margin: 0;
-        }
-        
-        .entete a {
-            color: white;
-            margin-right: 15px;
-        }
-        
-        .contenu {
-            width: 90%;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
-        }
-        
-        table {
-            width: 100%;
-            border: 1px solid black;
-        }
-        
-        table th {
-            background-color: #ff5a5f;
-            color: white;
-            padding: 10px;
-        }
-        
-        table td {
-            padding: 10px;
-            border: 1px solid gray;
-        }
-        
-        .pagination {
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        .pagination a {
-            padding: 5px 10px;
-            margin: 0 2px;
-            background-color: white;
-            color: black;
-            text-decoration: none;
-            border: 1px solid black;
-        }
-        
-        .page_actuelle {
-            padding: 5px 10px;
-            margin: 0 2px;
-            background-color: red;
-            color: white;
-        }
-        
-        input[type="text"], input[type="number"] {
-            padding: 5px;
-            width: 300px;
-            margin-bottom: 10px;
-        }
-        
-        button {
-            background-color: #ff5a5f;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-        }
-        
-        .message {
-            background-color: lightgreen;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
+	font-family: Arial;
+	margin: 0;
+	background-color: lightgray;
+}
+.entete {
+	background-color: #ff5a5f;
+	color: white;
+	padding: 20px;
+}
+.entete h1 {
+	margin: 0;
+}
+.entete a {
+	color: white;
+	margin-right: 15px;
+}
+.contenu {
+	width: 90%;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+}
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+table th {
+	background-color: #ff5a5f;
+	color: white;
+	padding: 10px;
+}
+table td {
+	padding: 10px;
+	border: 1px solid gray;
+}
+.pagination {
+	text-align: center;
+	margin-top: 20px;
+}
+.pagination a {
+	padding: 5px 10px;
+	margin: 0 2px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+}
+.page_actuelle {
+	padding: 5px 10px;
+	margin: 0 2px;
+	background-color: red;
+	color: white;
+}
+input[type='text'],
+input[type='number'] {
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+button {
+	background-color: #ff5a5f;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+}
+.message {
+	background-color: lightgreen;
+	padding: 10px;
+	margin-bottom: 10px;
+}
