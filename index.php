@@ -64,7 +64,7 @@ $resultat = $requete_logements->fetchAll();
 <?php
 if($action == 'ajouter') {
 ?>
-<h2>Ajouter un résultat :</h2>
+<h2>Ajouter un résultat </h2>
 <?php if(isset($msg)) { ?>
 <div class="message"><?php echo $msg; ?></div>
 <?php } ?>
@@ -91,7 +91,7 @@ if($action == 'ajouter') {
 ?>
  
     <div style="margin-bottom: 20px;">
-        Trier par : 
+        Trier par  
 <select onchange="window.location.href='index.php?p=<?php echo $page; ?>&tri='+this.value">
 <option value="id" <?php if($ordre == 'id') { echo 'selected'; } ?>>Par défaut</option>
 <option value="name" <?php if($ordre == 'name') { echo 'selected'; } ?>>Nom</option>
